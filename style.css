@@ -45,6 +45,23 @@ footer{
     background-color: #4A4A4A;
     height: 50px;
 }
+.footer-flex{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.f-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* utils */
 .relative{
     position:relative;
@@ -68,4 +85,10 @@ a{
 .buttons{
     background-color: #4A4A4A;
     border-radius: 5px;
+}
+.fa-microphone,.fa-chevron-up,.fa-user-plus,.fa-chart-column,.fa-share-from-square,.fa-chevron-up,.fa-comment,.fa-record-vinyl,.fa-table-cells-large,.fa-ellipsis{
+padding-left: 10px;
+}
+.fa-video,.fa-user-group{
+    padding-left: 30px;
 }
