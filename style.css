@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: red; 
+}
+/*generics */
+.border{
+    border: 2px dashed black;
+}
+.container{
+    height: 100vh;
+}
+footer{
+    background-color: black;
+    height: 50px;
+}
+.view{
+    height:40px;
+    background-color: #000;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+
+}
+img{
+    display:inline-block;
+    max-width: 100%;
+}
+.card{
+    width: 200px;
+}
+.card *{
+    background: rgba(0,0,0,0);
+}
+.montagna{
+
+} 
+.text{
+    left:0;
+    bottom:10px;
+}
