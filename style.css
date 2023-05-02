@@ -25,8 +25,7 @@ footer{
     flex-direction: row;
     gap: 10px;
     flex-wrap: wrap;
-    padding-left: 50px;
-    flex-shrink: 0;
+    padding-left: 50px;  
 }
 main{
     height:calc(100vh - 90px);
@@ -38,6 +37,7 @@ img{
 }
 .card{
     width: 200px;
+    flex-shrink: 1;
 }
 .text{
     left:0;
@@ -46,7 +46,7 @@ img{
 /* utils */
 .relative{
     position:relative;
-    flex-basis:calc((100%  - 20)  / 7);
+    flex-basis:calc((100%  - 20)  / 7); 
 }
 .absolute{
     position: absolute;
