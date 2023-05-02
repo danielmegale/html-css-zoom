@@ -2,34 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 /*generics */
-.border{
+/* .border{
     border: 2px dashed black;
-}
+} */
 .container{
     max-width:1400px;
     margin:0px auto;
 }
-footer{
-    background-color: black;
-    height: 50px;
-}
 .view{
     height:40px;
-    background-color: #000;
+    background-color:#000;
+    padding-top: 5px;
+    text-align: right;
 }
 .flex{
     display: flex;
     flex-direction: row;
     gap: 10px;
-    flex-wrap: wrap;
-    padding-left: 50px;  
+    flex-wrap:wrap;
+    padding:0 45px;
+    flex-shrink: 0;
 }
 main{
     height:calc(100vh - 90px);
     overflow: auto;
+    background-color: #000;
 }
 img{
     display:block;
@@ -37,23 +36,36 @@ img{
 }
 .card{
     width: 200px;
-    flex-shrink: 1;
 }
 .text{
     left:0;
     bottom:10px;
 }
+footer{
+    background-color: #4A4A4A;
+    height: 50px;
+}
 /* utils */
 .relative{
     position:relative;
-    flex-basis:calc((100%  - 20)  / 7); 
 }
 .absolute{
     position: absolute;
     left: 4px;
     bottom: 5px;
-    background: rgba(0,0,0,0.5);
     color: #fff;
     padding: 5px;
     font-size: 10px;
+    background-color: rgba(0,0, 0,0.5);
+}
+.view *{
+    color: #fff;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}
+.buttons{
+    background-color: #4A4A4A;
+    border-radius: 5px;
 }
